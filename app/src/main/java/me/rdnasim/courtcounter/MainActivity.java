@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(2);
     }
 
-    public void addForTeamA(View view) {
+    public void addOneForTeamA(View view) {
         displayForTeamA(1);
     }
 }
