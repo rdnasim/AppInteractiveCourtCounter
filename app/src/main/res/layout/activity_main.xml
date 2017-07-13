@@ -4,29 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context="me.rdnasim.courtcounter.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Team A"/>
+        android:gravity="center_horizontal"
+        android:text="Team A"
+        android:textSize="25sp"
+        android:padding="4dp"/>
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/display_team_score"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0"/>
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textSize="25sp"
+        android:padding="4dp"/>
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+3 Points"/>
+        android:text="+3 Points"
+        android:layout_margin="4dp"/>
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+2 Points"/>
+        android:text="+2 Points"
+        android:layout_margin="4dp"/>
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Free Throw"/>
+        android:text="Free Throw"
+        android:layout_margin="4dp"/>
 
 </LinearLayout>
